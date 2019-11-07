@@ -1,0 +1,25 @@
+package com.company;
+import  java.util.ArrayList;
+public class Main {
+
+    public static void main(String[] args) {
+        ArrayList<String> letters = new ArrayList<String>();
+        letters.add("c");
+        letters.add("h");
+        letters.add("a");
+        letters.add("n");
+        letters.add("y");
+        letters.add("e");
+        letters.add("o");
+        letters.add("l");
+        boolean ans = letters.contains("c");
+        if (ans == true)
+            System.out.println("The word has this letters.");
+        else
+            System.out.println("The word doesnt have this letter");
+        ans = letters.contains("s");
+        System.out.println("The word has this letters.");
+        System.out.println("The word doesnt have this letter");
+    
+    }
+}

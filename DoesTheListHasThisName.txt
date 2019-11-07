@@ -1,0 +1,24 @@
+
+package  com.company;
+import java.io.*;
+import java.util.LinkedList;
+
+public class Main{
+    public static void main(String args[]) {
+
+    
+        LinkedList<String> list = new LinkedList<String>();
+
+       
+        list.add("Chanyeol");
+        list.add("Taehyung");
+        list.add("Jaebom");
+        list.add("ChanTaeBom");
+        list.add("arT");
+
+
+        System.out.println("Does the List contains 'Chanyeol': "
+                + list.contains("Chanyeol"));
+
+    }
+}

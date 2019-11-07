@@ -1,0 +1,17 @@
+package  com.company;
+import  java.util.LinkedList;
+import  java.util.Random;
+import  java.util.Scanner;
+public class Main {
+ public static  void main  (Strin[] args){
+LinkedList<Integer> list=new  LinkedList< >();
+Random random=new Random ();
+Scanner   scanner=new Scanner (System.in);
+for  (int  i=1;  i<=10; i++){
+list.add(random.nextInt(bound:100));
+}
+System.out.println(list);
+int example=scanner.nextInt();
+System.out.println(list.contains(example));
+}
+}

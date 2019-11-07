@@ -1,0 +1,46 @@
+package com.company;
+import  java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+int  num1, num2,  operation=0;
+char  operator
+Scanner  scan= new  Scaner(System.In);
+num1=scan.nextInt();
+num2=scan.nextInt();
+scan.nextLine();
+scan.nextLine();
+String  continue;
+do {
+System.out.pritnln("Enter  the  operation");
+operation=scan.next().charAt(0);
+switch (operator)
+case "+";
+operation= num1+num2;
+break;
+
+case "-";
+operation= num1-num2;
+
+case "*";
+operation= num1+*num2;
+break;
+case "/";
+if (b==0)
+operation= num2/num1;
+else if (a==0)
+operation = num1/num2;
+else 
+operation=num1/num2;
+break;
+default:
+System.out.println("The entered operation does  not  exists");
+break;
+}
+System.out.println("operation");
+System.out.println("If you want to  continue press  the 'y||Y'+"if  you  want  to  exit  press the 'n||N'");
+scan.nextLine();
+continue.nextLine();
+}
+while (!continue.toLowerCase().equals.("n")&&continue.toLowerCase().equals("y"));
+}
+}
